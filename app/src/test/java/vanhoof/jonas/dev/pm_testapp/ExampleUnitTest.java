@@ -22,6 +22,6 @@ public class ExampleUnitTest {
 
     @Test
     public void add_big_isCorrect() throws Exception {
-        assertEquals(4444, Utils.addNumbers(2222 , 2222));
+        assertEquals(4444/**1*/, Utils.addNumbers(2222 , 2222));
     }
 }
